@@ -39,7 +39,7 @@ public class PictureFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Create a RelativeLayout screen for manipulating the PictureFragment View
-        RelativeLayout pictureScreen = (RelativeLayout) inflater.inflate(R.layout.pictureFrag, container, false);
+        RelativeLayout pictureScreen = (RelativeLayout) inflater.inflate(R.layout.picture_frag, container, false);
 
         // Set up the View's EditText for user response input
         response = (EditText) pictureScreen.findViewById(R.id.question1_response);

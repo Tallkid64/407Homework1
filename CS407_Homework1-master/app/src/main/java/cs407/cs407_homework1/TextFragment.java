@@ -23,7 +23,7 @@ public class TextFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Create a RelativeLayout screen for manipulating the TextFragment View
-        RelativeLayout textScreen = (RelativeLayout) inflater.inflate(R.layout.textFrag, container, false);
+        RelativeLayout textScreen = (RelativeLayout) inflater.inflate(R.layout.text_frag, container, false);
 
         // Set up the View's TextView for the question dialog
         TextView question = (TextView) textScreen.findViewById(R.id.question2);

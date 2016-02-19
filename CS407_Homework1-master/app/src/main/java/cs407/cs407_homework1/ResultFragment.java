@@ -16,7 +16,7 @@ public class ResultFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Create a RelativeLayout screen for manipulating the ResultFragment View
-        RelativeLayout resultScreen = (RelativeLayout) inflater.inflate(R.layout.finalFrag, container, false);
+        RelativeLayout resultScreen = (RelativeLayout) inflater.inflate(R.layout.final_frag, container, false);
 
         // Display their final score
         TextView finalScore = (TextView) resultScreen.findViewById(R.id.numericScore);
