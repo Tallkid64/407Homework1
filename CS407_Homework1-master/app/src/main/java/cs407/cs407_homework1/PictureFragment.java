@@ -10,9 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-
-import java.util.Random;
-
 public class PictureFragment extends Fragment {
 
     /**

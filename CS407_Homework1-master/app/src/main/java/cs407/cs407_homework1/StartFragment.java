@@ -8,15 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
-
 
 public class StartFragment extends Fragment {
-
-    /**
-     * PictureFragment View item - imageView
-     */
-    private ImageView mImageView;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
