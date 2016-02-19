@@ -54,7 +54,7 @@ public class PictureFragment extends Fragment {
         if (mImageView != null) {
 
                 correct_answer = answer;
-                mImageView.setImageResource(R.mipmap.Map);
+                mImageView.setImageResource(R.mipmap.map);
 
         }
 
