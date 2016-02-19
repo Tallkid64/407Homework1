@@ -10,9 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-/**
- * Created by Graham on 2/14/2016.
- */
+
 public class ResultFragment extends Fragment {
 
     @Override

@@ -1,8 +1,6 @@
 package cs407.cs407_homework1;
 
-/**
- * Created by Graham on 2/13/2016.
- */
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;

@@ -1,8 +1,6 @@
 package cs407.cs407_homework1;
 
-/**
- * Created by Graham on 2/13/2016.
- */
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -21,9 +19,9 @@ public class PictureFragment extends Fragment {
      * Constant Strings for assigning correct answers
      * for the picture question of the quiz
      */
-    private static final String answer1_random1 = "Starry Night";
-    private static final String answer1_random2 = "The Mona Lisa";
-    private static final String answer1_random3 = "Persistence of Memory";
+    private static final String answer1_random1 = "Wisconsin";
+    private static final String answer1_random2 = "Wisconsin";
+    private static final String answer1_random3 = "Wisconsin";
 
     /**
      * Constant integers for assigning quiz questions
@@ -69,15 +67,15 @@ public class PictureFragment extends Fragment {
             // Assign the first question's correct answer and image
             if (question_1 == random1) {
                 correct_answer = answer1_random1;
-                mImageView.setImageResource(R.drawable.starry_night);
+                mImageView.setImageResource(R.mipmap.Map);
 
             } else if (question_1 == random2) {
                 correct_answer = answer1_random2;
-                mImageView.setImageResource(R.drawable.mona_lisa);
+                mImageView.setImageResource(R.mipmap.Map);
 
             } else {
                 correct_answer = answer1_random3;
-                mImageView.setImageResource(R.drawable.persistence_of_memory);
+                mImageView.setImageResource(R.mipmap.Map);
 
             }
         }
