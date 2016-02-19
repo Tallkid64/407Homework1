@@ -27,7 +27,7 @@ public class TextFragment extends Fragment {
 
         // Set up the View's TextView for the question dialog
         TextView question = (TextView) textScreen.findViewById(R.id.question2);
-        question.setText("Which is the most massive?");
+        question.setText("Which are The Office quotes");
 
         answer1 = (CheckBox) textScreen.findViewById(R.id.checkBox1);
         answer2 = (CheckBox) textScreen.findViewById(R.id.checkBox2);
@@ -42,7 +42,7 @@ public class TextFragment extends Fragment {
             public void onClick(View v) {
 
                 // Call the finishQuiz method of the StartActivity
-                ((StartActivity)getActivity()).finishQuiz((!answer1.isChecked() && !answer2.isChecked() && answer3.isChecked() && !answer4.isChecked()));
+                ((StartActivity)getActivity()).finishQuiz((answer1.isChecked() && !answer2.isChecked() && answer3.isChecked() && answer4.isChecked()));
             }
         });
 

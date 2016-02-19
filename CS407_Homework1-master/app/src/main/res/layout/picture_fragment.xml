@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="What famous painting is this?"
+            android:text="@string/q1"
             android:id="@+id/question1"
             android:textAlignment="center"
             android:layout_above="@+id/question1_response"

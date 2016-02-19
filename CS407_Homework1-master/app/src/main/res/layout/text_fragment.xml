@@ -21,41 +21,45 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A ton of bricks on the Moon."
+            android:text="Fact, Bears Beets Battlestar Galactica"
             android:id="@+id/checkBox1"
             android:layout_above="@+id/checkBox2"
             android:layout_alignLeft="@+id/checkBox2"
-            android:layout_alignStart="@+id/checkBox2" />
+            android:layout_alignStart="@+id/checkBox2"
+            android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A ton of feathers on Earth."
+            android:text="Cool cool beans"
             android:id="@+id/checkBox2"
             android:layout_above="@+id/checkBox3"
             android:layout_alignLeft="@+id/checkBox3"
-            android:layout_alignStart="@+id/checkBox3" />
+            android:layout_alignStart="@+id/checkBox3"
+            android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A ton of feathers on the Moon."
+            android:text="I Declare Bankruptcy"
             android:id="@+id/checkBox3"
             android:layout_above="@+id/checkBox4"
             android:layout_alignLeft="@+id/checkBox4"
-            android:layout_alignStart="@+id/checkBox4" />
+            android:layout_alignStart="@+id/checkBox4"
+            android:checked="false" />
 
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="A ton of bricks on Earth."
+            android:text="That&apos;s what she said"
             android:id="@+id/checkBox4"
             android:layout_marginBottom="62dp"
             android:layout_marginLeft="45dp"
             android:layout_marginStart="45dp"
             android:layout_above="@+id/text_fragment_submit"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:checked="false" />
 
         <Button
             android:layout_width="wrap_content"
