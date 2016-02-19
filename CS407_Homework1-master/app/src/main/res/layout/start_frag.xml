@@ -23,7 +23,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Hello.. its me.. I was wondering if you would like to take this quiz for me."
         android:id="@+id/textView"
-        android:textSize="56dp"
+        android:textSize="45dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
