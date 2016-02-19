@@ -19,15 +19,8 @@ public class PictureFragment extends Fragment {
      * Constant Strings for assigning correct answers
      * for the picture question of the quiz
      */
-    private static final String answer1_random1 = "Wisconsin";
-    private static final String answer1_random2 = "Wisconsin";
-    private static final String answer1_random3 = "Wisconsin";
+    private static final String answer = "Wisconsin";
 
-    /**
-     * Constant integers for assigning quiz questions
-     */
-    private static final int random1 = 0;
-    private static final int random2 = 1;
 
     /**
      * String for assigning correct answer once determined
@@ -55,29 +48,14 @@ public class PictureFragment extends Fragment {
         response = (EditText) pictureScreen.findViewById(R.id.question1_response);
         response.setText("");
 
-        // Pick a random first question
-        Random random = new Random();
-        int question_1 = random.nextInt(3);
-
         // Set up the View's ImageView
         mImageView = (ImageView) pictureScreen.findViewById(R.id.pictureImage);
 
         if (mImageView != null) {
 
-            // Assign the first question's correct answer and image
-            if (question_1 == random1) {
-                correct_answer = answer1_random1;
+                correct_answer = answer;
                 mImageView.setImageResource(R.mipmap.Map);
 
-            } else if (question_1 == random2) {
-                correct_answer = answer1_random2;
-                mImageView.setImageResource(R.mipmap.Map);
-
-            } else {
-                correct_answer = answer1_random3;
-                mImageView.setImageResource(R.mipmap.Map);
-
-            }
         }
 
         // Set up the View's 'Submit Answer' button with a action listener

@@ -27,7 +27,7 @@ public class TextFragment extends Fragment {
 
         // Set up the View's TextView for the question dialog
         TextView question = (TextView) textScreen.findViewById(R.id.question2);
-        question.setText("Which are The Office quotes");
+        question.setText("Which are The Office ?");
 
         answer1 = (CheckBox) textScreen.findViewById(R.id.checkBox1);
         answer2 = (CheckBox) textScreen.findViewById(R.id.checkBox2);

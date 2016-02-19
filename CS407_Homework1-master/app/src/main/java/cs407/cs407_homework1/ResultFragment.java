@@ -19,24 +19,6 @@ public class ResultFragment extends Fragment {
         // Create a RelativeLayout screen for manipulating the ResultFragment View
         RelativeLayout resultScreen = (RelativeLayout) inflater.inflate(R.layout.result_fragment, container, false);
 
-        // Set up the View's two ImageViews for displaying whether a user submitted the correct answer.
-        // Green checkmark for correct answers, red exes for incorrect answers.
-        ImageView answer1 = (ImageView) resultScreen.findViewById(R.id.question1_image);
-        ImageView answer2 = (ImageView) resultScreen.findViewById(R.id.question2_image);
-
-        // Assign the images based on response correctness
-        if (((StartActivity)getActivity()).answer1) {
-            answer1.setImageResource(R.mipmap.ic_correct);
-        } else {
-            answer1.setImageResource(R.mipmap.ic_incorrect);
-        }
-
-        if (((StartActivity)getActivity()).answer2) {
-            answer2.setImageResource(R.mipmap.ic_correct);
-        } else {
-            answer2.setImageResource(R.mipmap.ic_incorrect);
-        }
-
         // Display their final score
         TextView finalScore = (TextView) resultScreen.findViewById(R.id.numericScore);
         finalScore.setText(((StartActivity)getActivity()).score + " / 2");

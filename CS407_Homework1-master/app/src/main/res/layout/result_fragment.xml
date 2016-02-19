@@ -7,7 +7,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Congratulations! You have completed the quiz!"
+            android:text="Congrats, I guess.."
             android:id="@+id/textView4"
             android:layout_marginTop="51dp"
             android:layout_alignParentTop="true"
@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Score:"
+            android:text="You got:"
             android:id="@+id/score"
             android:layout_marginTop="52dp"
             android:layout_below="@+id/textView4"
@@ -32,61 +32,26 @@
             android:layout_below="@+id/score"
             android:layout_centerHorizontal="true" />
 
-        <TextView
+    <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Question 1:"
-            android:id="@+id/question1_result"
-            android:layout_centerVertical="true"
-            android:layout_toLeftOf="@+id/numericScore" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Question 2:"
-            android:id="@+id/question2_result"
-            android:layout_marginTop="63dp"
-            android:layout_below="@+id/question1_result"
-            android:layout_alignLeft="@+id/question1_result"
-            android:layout_alignStart="@+id/question1_result" />
-
-        <ImageView
-            android:layout_width="70px"
-            android:layout_height="70px"
-            android:id="@+id/question1_image"
-            android:layout_alignTop="@+id/question1_result"
-            android:layout_toRightOf="@+id/score"
-            android:layout_alignBottom="@+id/question1_result" />
-
-        <ImageView
-            android:layout_width="70px"
-            android:layout_height="70px"
-            android:id="@+id/question2_image"
-            android:layout_alignTop="@+id/question2_result"
-            android:layout_toRightOf="@+id/score"
-            android:layout_alignBottom="@+id/question2_result" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Restart Quiz"
+            android:text="Play Again?"
             android:id="@+id/restartQuiz"
-            android:layout_above="@+id/exitQuiz"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exit Quiz"
+            android:text="Quit"
             android:id="@+id/exitQuiz"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/restartQuiz"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_marginTop="74dp"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
