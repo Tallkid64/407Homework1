@@ -23,11 +23,11 @@ public class TextFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         // Create a RelativeLayout screen for manipulating the TextFragment View
-        RelativeLayout textScreen = (RelativeLayout) inflater.inflate(R.layout.text_fragment, container, false);
+        RelativeLayout textScreen = (RelativeLayout) inflater.inflate(R.layout.textFrag, container, false);
 
         // Set up the View's TextView for the question dialog
         TextView question = (TextView) textScreen.findViewById(R.id.question2);
-        question.setText("Which are quotes from The Office?");
+        question.setText("Which are quotes from the tv show The Office?");
 
         answer1 = (CheckBox) textScreen.findViewById(R.id.checkBox1);
         answer2 = (CheckBox) textScreen.findViewById(R.id.checkBox2);

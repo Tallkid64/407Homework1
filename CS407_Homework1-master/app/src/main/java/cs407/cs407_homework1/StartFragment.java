@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 public class StartFragment extends Fragment {
@@ -16,7 +15,7 @@ public class StartFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         // Create a RelativeLayout screen for manipulating the StartFragment View
-        RelativeLayout startScreen = (RelativeLayout) inflater.inflate(R.layout.start_fragment, container, false);
+        RelativeLayout startScreen = (RelativeLayout) inflater.inflate(R.layout.startFrag, container, false);
 
         // Set up StartFragment View's 'Start Quiz' button with an action listener
         Button startQuiz = (Button) startScreen.findViewById(R.id.startQuiz);
